@@ -1,5 +1,11 @@
+# TODO
+- [ ] Normalize Data
+- [ ] Add to repository
+- [ ] Run all experiments
+- [ ] Verify results
+
 # StrokeAssist
-This is the official repository for the paper titled "STROKE-ASSIST: a novel machine learning framework for stroke type identification in resource-constrained settings resilient to missing data."
+This is the official repository for the paper titled "***STROKE-ASSIST: a novel machine learning framework for stroke type identification in resource-constrained settings resilient to missing data.***"
 
 ______________________________________________________________________
 
@@ -16,9 +22,9 @@ ______________________________________________________________________
 This library has been developed on `python=3.7.15`. For rest of the requirements refer `requirements.txt`
 
 
-## Run Command
+## Run Commands
 
-```
+```shell
 # Requirements installation
 pip install -r requirements. txt
 
@@ -28,13 +34,13 @@ python -m src.run --exp_list 1-2-3-4-5 2>&1 | tee ./logs/exp.log
 
 # For running experimentation with 20 attributes possibly causing target leakage removed run with --drop_all tag
 
-python -m src.run --exp_list 1-2 --drop_all true 2>&1 | tee ./logs/removed_all_exp.log
+python -m src.run --exp_list 1-2 --drop_all true 2>&1 | tee ./logs/exp_removed_all.log
 ```
 > Note: Experimentation 3,4,5 require same set of data preparation, which may take time. 
 
 
 
-## Arguments Help
+## Arguments
 
 ```
 optional arguments:
