@@ -26,7 +26,7 @@ This library has been developed on `python=3.7.15`. For rest of the requirements
 
 ```shell
 # Requirements installation
-pip install -r requirements. txt
+pip install -r requirements.txt
 
 # To run all experiments one-by-one with all 69 attributes or provide multiple experiment numbers.
 
