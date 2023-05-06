@@ -132,14 +132,14 @@ class EXP1():
         
         # read data and config
         data_df = read_data(self.data_csv)
-        config = read_data(self.config)
+        # config = read_data(self.config)
         
         if self.drop_all:
             drop_cols = read_data(self.drop_cols_all)
         else:
             drop_cols = read_data(self.drop_cols)
 
-        print(data_df.shape, config.shape, drop_cols.shape)
+        print(data_df.shape, drop_cols.shape)
 
         drop_list = list(drop_cols["attribute_name"])
         data_df.drop(drop_list, axis=1, inplace=True)

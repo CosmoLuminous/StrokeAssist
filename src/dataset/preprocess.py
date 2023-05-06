@@ -129,7 +129,7 @@ class PREPROCESS():
 
         # read data and config
         data_df = read_data(self.data_csv)        
-        config = read_data(self.config)
+#         config = read_data(self.config)
         
         if self.drop_all:
             drop_cols = read_data(self.drop_cols_all)
@@ -142,7 +142,7 @@ class PREPROCESS():
         prospective_df = prospective_df[arr]
         prospective_df.reset_index(inplace=True)
 
-        print(data_df.shape, config.shape, drop_cols.shape)
+        print(data_df.shape, drop_cols.shape)
         y_prospective = prospective_df["Diagnosis - stroke type - coded"]
 
         drop_list = list(drop_cols["attribute_name"])

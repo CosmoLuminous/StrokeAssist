@@ -2,7 +2,7 @@ import argparse
 import os
 from xmlrpc.client import boolean
 from src.utils import *
-from src.models import exp1, exp2, exp3, exp4, exp5, prospective, siriraj, shap, arvscore, lyo, interpretable
+from src.models import exp1, exp2, exp3, exp4, exp5, prospective, siriraj, shap, lyo, interpretable
 from src.dataset.preprocess import *
 
 
@@ -96,9 +96,9 @@ def run_experiment():
             e7 = siriraj.SIRIRAJ(args)
             e7.run()
             
-        elif exp == 8:
-            e8 = arvscore.SCORE(args)
-            e8.generate_results()
+        # elif exp == 8:
+        #     e8 = arvscore.SCORE(args)
+        #     e8.generate_results()
             
         elif exp == 9:
             e9 = lyo.LYO(args)
