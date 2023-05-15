@@ -1,8 +1,8 @@
 # TODO
-- [ ] Normalize Data
-- [ ] Add to repository
-- [ ] Run all experiments
-- [ ] Verify results
+- [x] Normalize Data
+- [x] Add to repository
+- [x] Run all experiments
+- [x] Verify results
 
 # StrokeAssist
 This is the official repository for the paper titled "***STROKE-ASSIST: a novel machine learning framework for stroke type identification in resource-constrained settings resilient to missing data.***"
