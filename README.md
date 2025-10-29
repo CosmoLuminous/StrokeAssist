@@ -5,7 +5,7 @@
 - [x] Verify results
 
 # StrokeAssist
-This is the official repository for the paper titled "***STROKE-ASSIST: a novel machine learning framework for stroke type identification in resource-constrained settings resilient to missing data.***"
+This is the official repository for the paper titled "***STROKE-ASSIST: A novel machine learning framework for stroke type identification in resource-constrained settings resilient to missing data. Published in: Scientific Reports (Nature Portfolio)***"
 
 ______________________________________________________________________
 
@@ -63,5 +63,14 @@ ______________________________________________________________________
 ## Citation
 
 ```
-
+@article{bhardwaj2025novel,
+  title={A novel machine learning framework for stroke type identification in resource constrained settings with robustness to missing data},
+  author={Bhardwaj, Aman and Antil, Yamini and Srivastava, MV Padma and Vinny, Pulikottil Wilson and Vishnu, Venugopalan Y and Garg, Rahul},
+  journal={Scientific Reports},
+  volume={15},
+  number={1},
+  pages={31207},
+  year={2025},
+  publisher={Nature Publishing Group UK London}
+}
 ```
